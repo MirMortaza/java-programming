@@ -1,0 +1,24 @@
+package day34_void_methods;
+
+public class FirstMethod {
+
+    public static void main(String[] args) {
+        displayMessage(); //1st call the method
+        displayMessage(); //2nd call to method
+        for(int i =1;i<=100;i++){
+            displayMessage();
+            System.out.print(i+" _ ");
+        }
+    }
+    public static void displayMessage(){
+        System.out.println("Hello mir how are you");
+    }
+}
+
+
+
+
+
+
+
+
